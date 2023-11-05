@@ -46,6 +46,9 @@ class ProductManager {
     }
 }
 
+//*************************************************************** */
+//****PRUEBA DE LA CLASE ProductManager ****/
+
 let productoManager = new ProductManager()
 
 productoManager.addProducto("Artic1", "Tomate al natural", "/imagenes.artic1", "1", "5")
@@ -69,3 +72,5 @@ console.log(productoById);
 console.log("**** Con id inexistente***");
 productoById = productoManager.getProductById(1);
 console.log(productoById);
+
+//*********** FIN PRUEBAS ****************************** */
